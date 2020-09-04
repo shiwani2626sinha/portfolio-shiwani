@@ -1,0 +1,14 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "homepage": "https://shiwani2626sinha.github.io/portfolio-shiwani",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy" : "npm run build",
+    "deploy" : "gh-pages -d build"
+  }, 
+  "author": "",
+  "license": "ISC"
+}
